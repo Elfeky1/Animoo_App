@@ -1,0 +1,54 @@
+name: login_signup_ui
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.4
+  url_launcher: ^6.2.5
+  fl_chart: ^0.66.2
+
+
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  password_rule_check: ^0.2.1
+  http: ^1.2.0
+  shared_preferences: ^2.2.2
+  socket_io_client: ^3.1.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+  #  App Icon
+  flutter_launcher_icons: ^0.13.1
+
+#  Launcher icon configuration
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/home_logo.jpg"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/home_logo.jpg"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/dogg.jpg
+    - assets/images/catt.png
+    - assets/images/food.png
+
+  fonts:
+    - family: CustomFontFamily
+      fonts:
+        - asset: assets/Fonts/Inika-Bold.ttf
